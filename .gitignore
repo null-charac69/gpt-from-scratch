@@ -1,0 +1,29 @@
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# PyTorch checkpoints and training outputs
+runs/
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.npy
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.log
